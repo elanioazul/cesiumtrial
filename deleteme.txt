@@ -1,0 +1,17 @@
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/cesiumprobatory",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "aot": true,
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "scripts": []
+          },
